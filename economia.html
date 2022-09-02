@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia Cidade</title>
+    <style>
+
+        /******LAYOUT PADRÃO***********/
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url("img/fundo.png") repeat-x;
+        }
+        ul{
+            margin: 0;
+            padding: 0%;
+            list-style: none;
+            
+        }
+        .borda{
+            border: 1px solid red;
+        }
+        #container{
+            width: 750px;
+            margin: 0 auto;
+        }
+
+        /******LAYOUT DO TOPO DO SITE***********/
+
+        #topo{
+            height: 160px;
+            padding-top: 25px;
+            background: url("img/detalhe-topo.png") no-repeat right center;
+        }
+        .logo{
+            width: 152px;
+            height: 66px;
+            background: url("img/logo.png") no-repeat center;
+            text-indent: 3000px;
+        }
+
+        /******LAYOUT DA BARRA DE NAVEGAÇÃO***********/
+
+        #topo ul{
+            margin-top: 30px;
+            background: red;
+            float: left;
+        }
+        #topo ul li{
+            float: left;
+        }
+        #topo ul a{
+            font-weight: bold;
+            font-size: 0.9em;
+            padding: 0.5em 0.8em;
+            line-height: 2.7em;
+            text-decoration: none;
+            color: white;
+            background: url("img/divisor.png") no-repeat left center;
+        }
+        #topo ul a.primeiro{
+            background: none;
+        }
+        #topo ul li:hover{
+            background-color: rgb(199, 0, 0);
+        }
+        #topo ul li a:hover{
+            color: rgb(210, 208, 208);
+        }
+        .home #navegação li#home, 
+        .brasil #navegação li#brasil,
+        .internacional #navegação li#internacional,
+        .economia #navegação li#economia,
+        .saude #navegação li#saude,
+        .ciencia #navegação li#ciencia,
+        .fotos #navegação li#fotos
+        {
+            background-color: rgb(199, 0, 0);
+        }
+      </style>
+</head>
+<body class="economia">
+
+    <div class="" id="container">
+        <div class="" id="topo">
+            <div class="logo"></div>
+            <ul id="navegação">
+                <li id="home"><a  class="primeiro" href="index.html">HOME</a></li>
+                <li id="brasil"><a  href="brasil.html">BRASIL</a></li>
+                <li id="internacional"><a  href="internacional.html">INTERNACIONAL</a></li>
+                <li id="economia"><a  href="economia.html">ECONOMIA</a></li>
+                <li id="saude"><a  href="saude.html">SAUDE</a></li>
+                <li id="ciencias"><a  href="ciencias.html">CIÊNCIAS</a></li>
+                <li id="fotos"><a  href="fotos.html">FOTOS</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
